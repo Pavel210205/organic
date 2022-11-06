@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:active,
+:focus {
+    outline: none
+}
+
+a:active,
+a:focus {
+    outline: none
+}
+
+aside,
+footer,
+header,
+nav {
+    display: block
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "DM Sans";
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #555555
+}
+
+button,
+input,
+textarea {
+    font-family: inherit
+}
+
+input::-ms-clear {
+    display: none
+}
+
+button {
+    cursor: pointer
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #222222;
+    display: block
+}
+
+a:hover {
+    text-decoration: none
+}
+
+ul li {
+    list-style: none
+}
+
+img {
+    vertical-align: top
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden
+}
+
+.menu {
+    color: #222222;
+    position: static
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 10px
+}
+
+.menu__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 150px;
+    position: relative
+}
+
+.menu__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.menu__list {
+    padding: 20px;
+    position: relative
+}
+
+.menu__list:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    color: #09A66D
+}
+
+.menu__list:hover:hover .menu__sublink {
+    pointer-events: all;
+    opacity: 1
+}
+
+.menu__sublink {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    pointer-events: none;
+    opacity: 0;
+    background: #09A66D;
+    color: #FFFFFF;
+    border-radius: 8px;
+    min-width: 100px;
+    padding: 2px
+}
+
+.menu__sublist {
+    padding: 5px
+}
+
+.menu__sublist:hover {
+    border-bottom: 1.5px solid rgb(255, 255, 255)
+}
+
+.menu__logo {
+    position: absolute;
+    margin: 0 auto;
+    left: 46%
+}
+
+.logo {
+    width: 56px;
+    height: 56px
+}
+
+.menu__btn {
+    position: absolute;
+    right: 0;
+    padding: 10px 23px;
+    height: 40px;
+    background: #09A66D;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400
+}
